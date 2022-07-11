@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 118px;
+    padding-top: 18px;
+    padding-left: 60px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    gap: 137px;
+}
+.nav .logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding-left: 24px;
+}
+.links{
+    display: flex;
+    gap: 25px;
+    margin-top: 5px;
+    padding-left: 73px;
+}
+
+.links a{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+
+    
+}
+.content1{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 5px;
+}
+.left{
+    flex: 0.64 1 0%;
+    margin-left: 19px;
+    display: flex;
+    flex-direction: column;
+}
+.left .tittle{
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+.left .para{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+button {
+    padding: 6px 34px;
+    border-radius: 8px;
+  }
+.left .button{
+  margin-top: 12px;
+}
+button.SignUp {
+    background: #3882f6;
+    border: 1px solid #3882f6;
+    color: white;
+    font-size: 18px;
+  }
+.right{
+    flex: 0 0 auto;
+    margin-left: 16px;
+    margin-top: -2px;
+}
+.right{
+    background-color: gray;
+    height: 220px;
+    width: 520px;
+}
+.image{
+   
+}
+.ads{
+    height: 100%;
+}
+.content2{
+    height: 100%;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    background: #aaa;
+    color: #333;
+    /* I'll give you this one for free lol */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.modal {
+    background: white;
+    width: 480px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  }
+button.continue {
+    background: #3882f6;
+    border: 1px solid #3882f6;
+    color: white;
+  }
