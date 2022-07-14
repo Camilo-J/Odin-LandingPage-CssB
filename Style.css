@@ -179,6 +179,9 @@ button.continue {
     color: white;
     font-size: 18px;
   }
+  .button :active{
+    background-color: #78a6f1;
+  }
   footer{
     height: 100px;
     background-color: #1F2937;
